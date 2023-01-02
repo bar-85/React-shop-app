@@ -1,0 +1,39 @@
+
+.home {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."; 
+}
+
+.title {
+    color: black;
+    margin: 30% 15%;
+}
+
+.title span {
+    color: orange;
+}
+
+
+.picture {
+    margin: 20% 23%;
+}
+
+.picture__orange {
+    width: 30rem;
+    height: auto;
+}
+
+.picture__bee {
+    margin: -15% 30%;
+}
+
+@media screen and (max-width: 700px) {
+    .home {
+      font-size: 0.7rem;
+      display: block;
+    }
+  }
