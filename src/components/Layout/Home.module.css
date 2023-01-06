@@ -6,13 +6,13 @@
 .title {
 	position: relative;
 	color: black;
-	margin-top: 15rem;
+	margin-top: 18rem;
 	margin-left: 5%;
 	z-index: 0;
 }
 
 .title span {
-	color: orange;
+	color: gold;
 }
 
 .picture {
@@ -40,9 +40,9 @@
 	height: auto;
 }
 
-@media screen and (max-width: 1046px) {
+@media screen and (max-width: 1080px) {
 	.home {
-		font-size: 1rem;
+		font-size: 1.03rem;
 	}
 
 	.orange {
@@ -59,15 +59,14 @@
 	}
 }
 
-@media screen and (max-width: 812px) {
+@media screen and (max-width: 880px) {
 	.home {
 		font-size: 1rem;
-	
 	}
 
 	.title {
 		text-align: center;
-		margin-top: 30%;
+		margin-top: 25%;
 		margin-left: 0;
 	}
 
@@ -75,7 +74,6 @@
 		position: relative;
 		margin-top: 5rem;
 		right: 0;
-
 	}
 
 	.bee {
