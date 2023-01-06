@@ -4,7 +4,7 @@ button {
 	height: 3rem;
 	background-color: white;
 	border-radius: 15%;
-	border: 2px solid gold;
+	border: 2px solid orange;
 	margin-right: 5%;
 	cursor: pointer;
 }
@@ -14,7 +14,7 @@ button {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: gold;
+	background-color: orange;
 	border-radius: 50%;
 	width: 1.5rem;
 	height: 1.5rem;
