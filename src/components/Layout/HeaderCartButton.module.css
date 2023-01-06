@@ -1,0 +1,25 @@
+button {
+	position: relative;
+	width: 3rem;
+	height: 3rem;
+	background-color: white;
+	border-radius: 15%;
+	border: 2px solid gold;
+	margin-right: 5%;
+	cursor: pointer;
+}
+
+.badge {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gold;
+	border-radius: 50%;
+	width: 1.5rem;
+	height: 1.5rem;
+	bottom: 0;
+	right: 0;
+	transform: translate(50%, 25%);
+	font-weight: bold;
+}

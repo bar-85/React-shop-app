@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import logo from '../../assets/logo.png'
 import classes from './Header.module.css'
+import HeaderCartButton from './HeaderCartButton'
 
 const Header = props => {
 	return (
@@ -10,7 +11,7 @@ const Header = props => {
 				<h1>
 					Pasieka <span>"Miodek"</span>
 				</h1>
-				<button>🛒</button>
+				<HeaderCartButton />
 			</header>
 		</Fragment>
 	)
