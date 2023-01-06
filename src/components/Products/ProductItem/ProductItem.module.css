@@ -1,0 +1,36 @@
+.product {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 1rem;
+	padding-bottom: 1rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.product h3 {
+	margin: 0 0 0.25rem 0;
+    text-align: center;
+}
+
+img {
+    width: 15rem;
+    height: auto;
+}
+
+.price {
+	margin-top: 0.25rem;
+    text-align: center;
+	font-weight: bold;
+	color: #ad5502;
+	font-size: 1.25rem;
+}
+
+@media screen and (max-width: 1080px) {
+    .product {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
