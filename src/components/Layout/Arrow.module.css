@@ -2,7 +2,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    margin-top: 8rem;
+    margin-top: 9rem;
 }
 
 .scroll {
@@ -52,5 +52,17 @@
 	}
 	100% {
 		border-color: gold;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.arrows {
+		margin-top: 9rem;
+	}
+}
+
+@media screen and (max-width: 880px) {
+	.arrows {
+		margin-top: -7rem;
 	}
 }
