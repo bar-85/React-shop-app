@@ -12,7 +12,7 @@ export const DUMMY_PRODUCTS = [
 		id: 1,
 		name: 'Miód wielokwiatowy',
 		price: 50,
-		imgUrl: honey1,
+		imgUrl: honey3,
 	},
 	{
 		id: 2,
@@ -24,13 +24,13 @@ export const DUMMY_PRODUCTS = [
 		id: 3,
 		name: 'Plaster miodu',
 		price: 100,
-		imgUrl: honey3,
+		imgUrl: honey4,
 	},
 	{
 		id: 4,
 		name: 'Pszczoły miodne',
 		price: 500,
-		imgUrl: honey4,
+		imgUrl: honey1,
 	},
 ]
 
