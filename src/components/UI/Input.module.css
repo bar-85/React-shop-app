@@ -1,0 +1,27 @@
+.input {
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input label {
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .input input {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font: inherit;
+    padding-left: 0.5rem;
+  }
+
+  @media screen and (max-width: 880px) {
+    .input {
+        margin-left: 1rem;
+    }
+}
