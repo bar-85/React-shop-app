@@ -1,0 +1,19 @@
+.form {
+	display: flex;
+	text-align: right;
+}
+
+.form button {
+	font: inherit;
+	cursor: pointer;
+	color: orange;
+	font-weight: bold;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+@media screen and (max-width: 321px) {
+	.form {
+		font-size: 0.8rem;
+	}
+}
