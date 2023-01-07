@@ -34,3 +34,15 @@ img {
         font-size: 1rem;
     }
 }
+
+@media screen and (max-width: 880px) {
+    img {
+        width: 10rem;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    img {
+        width: 7rem;
+    }
+}
