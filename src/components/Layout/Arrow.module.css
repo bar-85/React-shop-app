@@ -1,0 +1,56 @@
+.arrows {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: 8rem;
+}
+
+.scroll {
+	position: relative;
+	animation: scroll-down 1s infinite;
+}
+
+.arrow {
+	width: 20px;
+	height: 20px;
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	transform: rotate(315deg);
+	animation: color-change 1s infinite;
+}
+
+.arrow:nth-child(1) {
+	animation-delay: 0s;
+}
+
+.arrow:nth-child(2) {
+	animation-delay: 0.2s;
+}
+
+.arrow:nth-child(3) {
+	animation-delay: 0.4s;
+}
+
+@keyframes scroll-down {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(20px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes color-change {
+	0% {
+		border-color: gold;
+	}
+	50% {
+		border-color: darkorange;
+	}
+	100% {
+		border-color: gold;
+	}
+}
