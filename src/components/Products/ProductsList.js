@@ -35,7 +35,7 @@ export const DUMMY_PRODUCTS = [
 ]
 
 const ProductsList = () => {
-	const prosuctsList = DUMMY_PRODUCTS.map(product => <ProductItem key={product.id} name={product.name} price={product.price} imgUrl={product.imgUrl} />)
+	const prosuctsList = DUMMY_PRODUCTS.map(product => <ProductItem id={product.id} key={product.id} name={product.name} price={product.price} imgUrl={product.imgUrl} />)
 
 	return (
 		<section className={classes.products}>
