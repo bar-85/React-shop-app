@@ -69,10 +69,12 @@
 
 @media screen and (max-width: 650px) {
 	.arrows {
-		margin-top: -5rem;
+		margin-top: -4rem;
 	}
 }
 
 @media screen and (max-width: 376px) {
-
+	.arrows {
+		margin-top: -5.5rem;
+	}
 }

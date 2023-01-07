@@ -23,11 +23,8 @@
 }
 
 .orange {
-	top: -3rem;
 	width: 19rem;
 	height: auto;
-	right: 5%;
-	z-index: -5;
 }
 
 .bee {
@@ -94,9 +91,7 @@
 	}
 
 	.orange {
-		top: 17rem;
-		right: 8rem;
-		width: 10rem;
+		width: 11rem;
 	}
 
 	.picture {
@@ -121,10 +116,26 @@
 		margin-top: 38%;
 	}
 
+	.picture {
+		margin-top: 7rem;
+	}
+
 }
 
 @media screen and (max-width: 321px) {
 	.title {
 		margin-top: 35%;
+	}
+
+	.orange {
+		width: 8rem;
+	}
+
+	.picture {
+		margin-top: 3rem;
+	}
+
+	.bee {
+		top: 12rem;
 	}
 }
