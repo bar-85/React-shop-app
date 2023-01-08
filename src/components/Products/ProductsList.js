@@ -6,7 +6,6 @@ import honey2 from '../../assets/honey2.png'
 import honey3 from '../../assets/honey3.png'
 import honey4 from '../../assets/honey4.png'
 
-
 export const DUMMY_PRODUCTS = [
 	{
 		id: 1,
@@ -35,7 +34,9 @@ export const DUMMY_PRODUCTS = [
 ]
 
 const ProductsList = () => {
-	const prosuctsList = DUMMY_PRODUCTS.map(product => <ProductItem id={product.id} key={product.id} name={product.name} price={product.price} imgUrl={product.imgUrl} />)
+	const prosuctsList = DUMMY_PRODUCTS.map(product => (
+		<ProductItem id={product.id} key={product.id} name={product.name} price={product.price} imgUrl={product.imgUrl} />
+	))
 
 	return (
 		<section className={classes.products}>
