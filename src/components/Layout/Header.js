@@ -11,7 +11,7 @@ const Header = props => {
 				<h1>
 					Pasieka <span>"Miodek"</span>
 				</h1>
-				<HeaderCartButton />
+				<HeaderCartButton onClick={props.onShowCart} />
 			</header>
 		</Fragment>
 	)
