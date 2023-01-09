@@ -1,3 +1,37 @@
+<h1 align="center"> React sklep - "MIODEK" </h >
+<br />
+<br />
+<h2 align="left"> Responsywna strona internetowa: </h2>
+* dodaj produkt
+<br />
+* usuń produkt
+<br />
+<br />
+Stronę można zobaczyć pod adresem: https://miodek-shop.netlify.app/
+<br />
+<h3 align="left"> Technologie: </h3>
+* JavaScript / React - React Router (Hooks)
+<br />
+* CSS
+<br />
+<br />
+
+![Screenshot_17](https://user-images.githubusercontent.com/105555319/211410742-2153274b-a485-4e03-83ea-2977756e847b.jpg)
+<br />
+<br />
+![Screenshot_13](https://user-images.githubusercontent.com/105555319/211410246-0df35f92-b7ad-4a91-845d-7fe7c5c07ec5.jpg)
+<br />
+<br />
+![Screenshot_12](https://user-images.githubusercontent.com/105555319/211410276-af1fdfd2-f224-4a81-991f-26f2e4ead813.jpg)
+<br />
+<br />
+![Screenshot_14](https://user-images.githubusercontent.com/105555319/211410325-08cc375b-2fe5-489f-912f-15628a545510.jpg)
+![Screenshot_15](https://user-images.githubusercontent.com/105555319/211410343-508bfb1a-b143-4412-bb3d-a3f04e88d461.jpg)
+![Screenshot_16](https://user-images.githubusercontent.com/105555319/211410362-f61bd882-049c-4f32-b635-d8e1aca9927a.jpg)
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
