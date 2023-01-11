@@ -1,10 +1,8 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import Input from '../../UI/Input'
 import classes from './ProductItemForm.module.css'
 
 const ProductItemForm = props => {
-	const [amountIsValid, setAmountIsValid] = useState(true)
-
 	const amountInputRef = useRef()
 
 	const submitHandler = e => {
@@ -12,11 +10,6 @@ const ProductItemForm = props => {
 
 		const enteredAmount = amountInputRef.current.value
 		const enterdAmountNumber = +enteredAmount
-
-		if (enteredAmount.trim().length === 0 || enterdAmountNumber < 1 || enterdAmountNumber > 10) {
-			setAmountIsValid(false)
-			return
-		}
 
 		props.onAddToCart(enterdAmountNumber)
 	}
@@ -31,13 +24,12 @@ const ProductItemForm = props => {
 					id: 'amount_' + props.id,
 					type: 'number',
 					min: '1',
-					max: '10',
+					max: '',
 					step: '1',
 					defaultValue: '1',
 				}}
 			/>
 			<button>+</button>
-			{!amountIsValid && <p>(1-10)</p>}
 		</form>
 	)
 }
