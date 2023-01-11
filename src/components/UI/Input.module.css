@@ -12,7 +12,7 @@
 }
 
 .input input {
-	width: 2.5rem;
+	width: 3.5rem;
 	height: 2.5rem;
 	border-radius: 5px;
 	border: 1px solid #ccc;
@@ -23,5 +23,9 @@
 @media screen and (max-width: 880px) {
 	.input {
 		margin-left: 1rem;
+	}
+
+	.input input {
+		width: 3rem;
 	}
 }
